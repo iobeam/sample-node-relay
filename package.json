@@ -1,0 +1,26 @@
+{
+  "name": "iobeam-relay",
+  "version": "0.0.1",
+  "description": "Client library for connecting to iobeam",
+  "repository": "https://github.com/iobeam/iobeam-client-node",
+  "license": "Apache-2.0",
+  "private": true,
+  "dependencies": {
+    "iobeam-client": "file:../iobeam-client-node"
+  },
+  "devDependencies": {
+    "babel": "^5.8.0",
+    "eslint": "^1.2.0",
+    "jest-cli": "^0.5.7"
+  },
+  "scripts": {
+    "lint": "eslint src/ || echo",
+    "test": "jest"
+  },
+  "author": "iobeam",
+  "jest": {
+    "rootDir": ".",
+    "testDirectoryName": "tests",
+    "verbose": true
+  }
+}
